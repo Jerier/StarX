@@ -1,0 +1,88 @@
+StarX - Terms of Use
+Version 1.0.0
+
+Copyright (c) 2026 StarX. All rights reserved.
+
+By installing or running StarX you agree to these terms. If you do not agree,
+do not install or run it, and uninstall it using Settings > Apps.
+
+1. What StarX is
+StarX is a free Windows utility for gamers. It can adjust screen color
+(saturation, brightness, gamma, contrast, temperature and similar), change
+NVIDIA digital vibrance, switch screen resolution, draw a crosshair overlay,
+cap system volume, take color-filtered screenshots, edit a game's launch
+options and Rust's client.cfg, and apply optional Windows performance tweaks
+(Game Mode, power plan, multimedia scheduler values, mouse acceleration,
+fullscreen optimizations, Game DVR).
+
+2. Licence to use
+You may use StarX for personal, non-commercial purposes at no charge. StarX is
+proprietary software and is not open source. All rights not expressly granted
+here are reserved.
+
+You may NOT:
+- upload, mirror, repost or otherwise distribute StarX, in whole or in part,
+  modified or unmodified, on any website, file host, server, store, channel or
+  package, other than the official StarX releases page and the official StarX
+  Discord server;
+- sell, rent, lease or bundle StarX, or charge for access to it;
+- decompile, disassemble, reverse engineer or extract the source code of
+  StarX, except where the law expressly allows it despite this term;
+- modify StarX or build anything derived from it;
+- remove, bypass or tamper with its licence check, access key or remote
+  status check.
+
+You may share a link to the official releases page or the official Discord
+server.
+
+3. Access key
+StarX asks for a key that is shared in the StarX Discord server. The key is
+only a way to join the community. Do not post it publicly. Access may be
+withdrawn for anyone who breaks the server rules or these terms.
+
+4. System changes and your responsibility
+StarX changes settings on your PC: display color and resolution, the active
+power plan, current-user and system registry values, per-game compatibility
+flags, audio volume and game configuration files. StarX records the original
+values and restores them when you turn a feature off or exit. If StarX is
+killed, crashes, or loses power, a restore can be interrupted; run
+"StarX.exe --reset" to put display state back, or turn the feature off in the
+app.
+
+Some tweaks write to the system part of the registry and need administrator
+rights; StarX skips them when it does not have that access.
+
+5. Games and anti-cheat
+StarX does not inject code into games, read or write game memory, or hook game
+processes. It edits settings and configuration files on disk and changes
+Windows display state. Game publishers and anti-cheat services set their own
+rules, and StarX cannot promise how any game or service will treat a
+particular setting. You use StarX in online games at your own risk, and StarX
+is not responsible for bans, suspensions or lost progress.
+
+6. No warranty
+StarX is provided "as is" and "as available", without warranty of any kind,
+express or implied, including fitness for a particular purpose,
+non-infringement, uninterrupted or error-free operation, or that it will not
+trigger a warning from antivirus or SmartScreen software. StarX is not
+digitally signed, so Windows may warn you when you download or run it.
+
+7. Limitation of liability
+To the maximum extent permitted by law, the author of StarX is not liable for
+any indirect, incidental, special or consequential damages, or for any loss of
+data, profit, game accounts, hardware or settings, arising from your use of
+StarX. If you live somewhere that does not allow this limitation, it applies
+only as far as the law allows.
+
+8. Remote disable
+StarX checks a signed status file when it starts. The author may use it to
+disable StarX, for example if a serious fault is found. Disabling does not
+delete your files; it only stops StarX from running.
+
+9. Changes and ending
+These terms may change in a future version; the version you installed
+describes the terms for that version. You can stop using StarX at any time by
+uninstalling it. The author may end your access if you break these terms.
+
+10. Contact
+Community and support: https://discord.gg/3zGB8NUHU3

@@ -1,0 +1,59 @@
+StarX - Privacy Notice
+Version 1.0.0
+
+Short version: StarX has no accounts, no analytics and no tracking. The only
+thing it contacts over the internet is a small signed status file, and nothing
+about you is sent with that request beyond what any web request includes.
+
+What StarX sends
+----------------
+Each time it starts (and when you enter a key), StarX downloads one small file
+from raw.githubusercontent.com to see whether it has been disabled. This is an
+ordinary HTTPS download. As with any web request, GitHub can see your IP
+address and the request itself, and StarX identifies itself as "StarX/<version>".
+StarX does not upload your settings, files, hardware information, game
+library, Steam account or usage.
+
+If the file cannot be reached or does not have a valid signature, StarX keeps
+running on its local licence and notes that in a local log.
+
+What StarX stores on your PC
+----------------------------
+Everything is kept per-user in %LOCALAPPDATA%\StarX:
+- starx.json (and starx.json.bak): your settings, game profiles, crosshair
+  choices and the saved "original" values it needs to undo its changes. It
+  also holds a hash (a one-way fingerprint) of the access key you entered, not
+  the key itself.
+- starx.log, startup.log, crash.log, selftest.log: diagnostic text. They can
+  include file paths, error messages and settings values. They are never sent
+  anywhere by StarX. Some of them are trimmed automatically when they get
+  large; you can delete them at any time.
+Screenshots you take are saved in Pictures\StarX and copied to your clipboard.
+
+Other places StarX reads or writes on your PC
+---------------------------------------------
+- Windows registry values for the features you turn on, plus a "Start with
+  Windows" entry if you enable it.
+- Steam's local files, to list installed games and edit the launch options of
+  games you configure in StarX (it will refuse to edit if it cannot tell which
+  Steam account is active).
+- A game's own config file (for example Rust's client.cfg), after saving a one
+  time backup next to it.
+None of this leaves your PC.
+
+Sharing diagnostics
+-------------------
+If you ask for help, you may choose to share log text or the diagnostics
+StarX can copy for you. Review it first; it can contain folder names that
+include your Windows user name. Never share the access key hash or screenshots
+that show something private.
+
+Removing your data
+------------------
+Uninstall StarX from Settings > Apps. Your settings and logs stay in
+%LOCALAPPDATA%\StarX so a reinstall keeps them. The uninstaller asks whether to
+delete them too, or you can delete that folder yourself.
+
+Questions
+---------
+Ask in the StarX Discord: https://discord.gg/3zGB8NUHU3
